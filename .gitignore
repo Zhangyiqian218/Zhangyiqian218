@@ -1,0 +1,22 @@
+# ===== 密钥 / 环境变量（绝不提交） =====
+.env
+.env.local
+*.key
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# ===== 系统 / IDE =====
+.DS_Store
+.idea/
+.vscode/
+Thumbs.db
+
+# ===== 临时日志 =====
+*.log
+_shots/
